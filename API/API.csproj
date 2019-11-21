@@ -5,6 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="CQRS-Snippets\**" />
+    <Content Remove="CQRS-Snippets\**" />
+    <EmbeddedResource Remove="CQRS-Snippets\**" />
+    <None Remove="CQRS-Snippets\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Application\Application.csproj" />
   </ItemGroup>
 
